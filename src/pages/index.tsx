@@ -4,31 +4,30 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-
+import {Redirect} from '@docusaurus/router';
 import styles from './index.module.css';
+import { useEffect } from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={styles.heroBanner}>
-      <div className="container">
-        <Heading as="h1" className={styles.title}>
-          {siteConfig.title}
-        </Heading>
-        <p className={styles.tagline}>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-        </div>
-      </div>
+      <Redirect to="/3.0.0/getting-started/whats-new" />;
     </header>
   );
 }
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+
+  useEffect(() => {
+    <Redirect to="/3.0.0/getting-started/whats-new" />;
+  }, [])
+  
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Datasance Documents <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
