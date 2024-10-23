@@ -1,7 +1,7 @@
 <aside class="notifications tip">
   <h3><img src="/static/images/icos/ico-tip.svg" alt=""/>Not interested in using Kubernetes?</h3>
-  <p>There are two flavours of Control Plane deployments - Remote and Kubernetes. This guide will focus on deploying a Remote Control Plane on a Kubernetes cluster. Go to <a href="#/./ioFog_3.0/platform-deployment/remote-control-plane">Remote - Deploy Control Plane</a> to deploy the Control Plane on a Linux host instead. Keep in mind that in such case, it will be necessary to prepare the host for Controller as well.</p>
-  <p>Also, this guide will use Helm to deploy the Control Plane on the cluster. To use potctl instead, go to <a href="#/./ioFog_3.0/pltform-deployment/kubernetes-potctl"> Kubernetes - Deploy Control Plane Using potctl</a>.</p>
+  <p>There are two flavours of Control Plane deployments - Remote and Kubernetes. This guide will focus on deploying a Remote Control Plane on a Kubernetes cluster. Go to <a href="../platform-deployment/remote-control-plane">Remote - Deploy Control Plane</a> to deploy the Control Plane on a Linux host instead. Keep in mind that in such case, it will be necessary to prepare the host for Controller as well.</p>
+  <p>Also, this guide will use Helm to deploy the Control Plane on the cluster. To use potctl instead, go to <a href="../pltform-deployment/kubernetes-potctl"> Kubernetes - Deploy Control Plane Using potctl</a>.</p>
 </aside>
 
 # Kubernetes - Deploy Control Plane Using Helm
@@ -14,7 +14,7 @@ The Helm Chart installs a set of Custom Resources and an Operator onto the clust
 
 First, we need a working Kubernetes cluster. We can simply set up a cluster on the Google Kubernetes Engine (GKE) by following the [Creating a cluster tutorial](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster). Using any other managed cluster providers works as well, so do custom installations of Kubernetes, e.g. Minikube.
 
-IoFog also provides [tools for infrastructure setup](https://github.com/eclipse-iofog/platform) to setup a Kubernetes cluster in case we don't have one available. Please see [Platform Tools](./platform-tools.html) for more details.
+IoFog also provides [tools for infrastructure setup](https://github.com/eclipse-iofog/platform) to setup a Kubernetes cluster in case we don't have one available.
 
 The tutorial requires installation of `Helm v3+` and `kubectl` executing the deployment.
 
@@ -74,7 +74,7 @@ The following is a complete list of all user configurable properties for the ioF
 
 ### Connection to Installed ioFog
 
-Once the installation is complete, you will be able to connect to the ioFog Controller on K8s using [potctl](../potctl/introduction.html). Make sure the `--namespace` here matches the one used during `helm install` step, so `potctl` can find the correct ECN using your kubeconfig file.
+Once the installation is complete, you will be able to connect to the ioFog Controller on K8s using [potctl](../potctl/introduction). Make sure the `--namespace` here matches the one used during `helm install` step, so `potctl` can find the correct ECN using your kubeconfig file.
 
 ```bash
 potctl --namespace my-ns connect --kube ~/.kube/config --email user@domain.com --pass H23fkidf9hoibf2nlk
@@ -90,7 +90,7 @@ helm --namespace my-ns delete my-ecn
 
 <aside class="notifications tip">
   <h3><img src="/static/images/icos/ico-tip.svg" alt=""/>Where to go from here?</h3>
-  <p>Having our Control Plane up and running, we can now go to <a href="#/./ioFog_3.0/platform-deployment/setup-your-agents">Setup Agents</a> guide to deploy our Agents and finalize the ECN deployment.</p>
+  <p>Having our Control Plane up and running, we can now go to <a href="../platform-deployment/setup-your-agents">Setup Agents</a> guide to deploy our Agents and finalize the ECN deployment.</p>
 </aside>
 
 <aside class="notifications contribute">

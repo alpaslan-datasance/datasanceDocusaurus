@@ -24,7 +24,7 @@ But because most Edge Compute Networks contain multiple, sometimes even hundreds
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> Want to run through a tutorial?</h3>
-  <p>If you'd like to learn more about creating and managing microservices on ioFog, <a href="#/./ioFog_3.0/tutorial/introduction.html">check out our Tutorial</a></p>
+  <p>If you'd like to learn more about creating and managing microservices on ioFog, <a href="../tutorial/introduction.html">check out our Tutorial</a></p>
 </aside>
 
 ## Dynamic Configuration
@@ -76,7 +76,7 @@ The high-level process of creating a new microservice is:
 - (Optional) Add the registered image to your Controller's catalog
 - Deploy the microservice using potctl
 
-It is detailed in our [tutorial](#/./ioFog_3.0/tutorial/introduction)
+It is detailed in our [tutorial](../tutorial/introduction)
 
 <aside class="notifications contribute">
   <h3><img src="/static/images/icos/ico-github.svg" alt=""/>See anything wrong with the document? Help us improve it!</h3>

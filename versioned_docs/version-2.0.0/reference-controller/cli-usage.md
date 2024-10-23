@@ -1,6 +1,6 @@
 # Legacy Controller CLI Usage
 
-Please see potctl for current CLI usage: [potctl](../tools/potctl/introduction.html)
+Please see potctl for current CLI usage: [potctl](../potctl/introduction)
 
 ```sh
 iofog-controller <command> <action> <options>

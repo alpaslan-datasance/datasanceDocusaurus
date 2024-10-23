@@ -48,8 +48,8 @@ Run `potctl version` to verify you have successfully installed the CLI.
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> Next steps?</h3>
   <ul>
-    <li><a href="#/./ioFog_3.0/getting-familiar.html">Getting familiar with potctl.</a></li>
-    <li><a href="#/./ioFog_3.0/reference-potctl/reference-kinds">potctl reference.</a></li>
+    <li><a href="../getting-familiar.html">Getting familiar with potctl.</a></li>
+    <li><a href="../reference-potctl/reference-kinds">potctl reference.</a></li>
   </ul>
 </aside>
 

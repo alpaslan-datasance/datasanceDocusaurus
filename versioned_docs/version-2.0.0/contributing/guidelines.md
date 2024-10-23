@@ -19,7 +19,7 @@ We use different issue trackers for individual pieces of the ioFog community.
 
 ### Getting Help
 
-Need some help? Check out the [Community](/community.html) page for resources like our discussion forums and meetups.
+Need some help? Check out the [Community](https://iofog.org/community.html) page for resources like our discussion forums and meetups.
 
 ### Sending a Pull Request
 

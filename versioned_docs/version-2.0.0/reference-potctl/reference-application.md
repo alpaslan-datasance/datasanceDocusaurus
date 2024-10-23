@@ -215,7 +215,7 @@ spec:
 
 | Field                   | Description                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------- |
-| template.name           | Name of the [Application template](../reference-application-template) to use |
+| template.name           | Name of the [Application template](../reference-potctl/reference-application-template) to use |
 | template.variables      | Array of variables specifications                                                 |
 | template.variables.key  | Variable key                                                                      |
 | template.variables.name | Variable value                                                                    |

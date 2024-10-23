@@ -16,19 +16,16 @@ It can be used to:
 
 ## Screenshots
 
-The following screenshots have been taken from a Controller at the start of our [tutorial](../tutorial/introduction.html)
+The following screenshots have been taken from a Controller at the start of our [tutorial](../tutorial/introduction)
 
-<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center">
-  <img src="/static/images/ecn-viewer/summary.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
-  <img src="/static/images/ecn-viewer/app.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
-  <img src="/static/images/ecn-viewer/agent.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
-  <img src="/static/images/ecn-viewer/agent-details.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
+<div >
+  <img src="/static/images/ecn-viewer/summary.png"  />
+  <img src="/static/images/ecn-viewer/app.png"  />
+  <img src="/static/images/ecn-viewer/agent.png"  />
+  <img src="/static/images/ecn-viewer/agent-details.png"  />
 </div>
 
 <aside class="notifications contribute">
   <h3><img src="/static/images/icos/ico-github.svg" alt=""/>See anything wrong with the document? Help us improve it!</h3>
-  <a href="https://github.com/eclipse-iofog/iofog.org/edit/develop/content/docs/3.0/reference-controller/ecn-viewer.md"
-    target="_blank">
-    
-  </a>
+  <a href="https://github.com/eclipse-iofog/iofog.org/edit/develop/content/docs/3.0/reference-controller/ecn-viewer.md" target="_blank"></a>
 </aside>

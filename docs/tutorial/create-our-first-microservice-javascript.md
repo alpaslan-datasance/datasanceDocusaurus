@@ -2,7 +2,7 @@
 
 ### JavaScript Edition
 
-[Node.js](https://nodejs.org/) is a JavaScript runtime built on Google Chrome's V8 JavaScript engine. In this step we're going to build a simple microservice using Node.js and the [ioFog SDK](#/./ioFog_3.0/developing-microservices/sdk).
+[Node.js](https://nodejs.org/) is a JavaScript runtime built on Google Chrome's V8 JavaScript engine. In this step we're going to build a simple microservice using Node.js and the [ioFog SDK](../developing-microservices/sdk).
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> New to Node.js?</h3>
@@ -172,7 +172,7 @@ iofog.wsSendMessage(output);
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> More about ioMessages?</h3>
-  <p>ioMessages can contain a number of options and fields not described here. To learn more, check out the <a href="#/./ioFog_3.0/reference-agent/rest-api">Local API Reference</a>.</p>
+  <p>ioMessages can contain a number of options and fields not described here. To learn more, check out the <a href="../reference-agent/rest-api">Local API Reference</a>.</p>
 </aside>
 
 ## Putting The Moving Average Together

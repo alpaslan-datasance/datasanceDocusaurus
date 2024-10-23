@@ -4,7 +4,7 @@ An **Edge Compute Network** (ECN) running ioFog is made up of one or more device
 
 While the Agent daemon is a CLI, after setting things up a majority of your management tasks—such as starting/stopping microservices—will instead be done using the [Controller](../reference-controller/overview), which controls the Agent on your behalf, remotely. This allows you to deploy and maintain microservices without needing to SSH directly onto every edge node device.
 
-For full usage details see the [Agent CLI Usage](/ioFog_3.0/reference-agent/cli-usage) page.
+For full usage details see the [Agent CLI Usage](../reference-agent/cli-usage) page.
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> Learn more about microservices</h3>

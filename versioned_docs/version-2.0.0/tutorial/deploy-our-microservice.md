@@ -105,7 +105,7 @@ spec:
       to: rest-api
 ```
 
-This yaml file has been used to describe to `potctl` what our set of microservices (application) should look like, and how they are configured. You can find a complete description of the YAML format [here](..ioFog_3.0/reference-potctl/reference-application), but for now let's focus on the main parts.
+This yaml file has been used to describe to `potctl` what our set of microservices (application) should look like, and how they are configured. You can find a complete description of the YAML format [here](../reference-potctl/reference-application), but for now let's focus on the main parts.
 
 - The file describes an application, named `tutorial`.
 - It has 3 microservices.
@@ -265,7 +265,7 @@ moving-average  RUNNING     local-agent {}          rest-api
 ## Conclusion
 
 Have a look at new output of the [Freeboard dashboard](http://localhost:10102/?load=dashboard.json). This should now display the values modified by moving average and look similar to this:
-<img src="/static/images/Freeboard_2.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
+<img src="/static/images/Freeboard_2.png"/>
 
 The magic about microservices and ioFog is that none of those microservice is specifically designed or requires to work with the other microservice. Using ioFog, you can create smart and secure communication channels between independant microservices and easily manage a fleet of Edge devices and microservices.
 

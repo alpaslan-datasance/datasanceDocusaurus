@@ -57,7 +57,7 @@ We can use `potctl deploy` to install and provision ECN components. Here we will
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/>Want to know more about potctl?</h3>
-  <p>We aren't going into detail about potctl here because we want to show you how simple it can be to get going with ioFog. Please make sure to check out the full potctl documentation <a href="#/./ioFog_3.0/potctl/introduction">here</a>.</p>
+  <p>We aren't going into detail about potctl here because we want to show you how simple it can be to get going with ioFog. Please make sure to check out the full potctl documentation <a href="../potctl/introduction">here</a>.</p>
 </aside>
 
 Go ahead and paste the following commands into the terminal:
@@ -119,9 +119,9 @@ ROUTE           SOURCE MSVC     DEST MSVC
 
 **NB:** The Agent status might say `UNKNOWN` for up to 30s. It is the time for the agent to report back its liveness to the controller.
 
-The `Controller` acts as a control plane, it will be our main point of access and communication with our ECN. If we want to find out more about Controller, please read <a href="#/./ioFog_3.0/reference-controller/overview">this</a>.
+The `Controller` acts as a control plane, it will be our main point of access and communication with our ECN. If we want to find out more about Controller, please read <a href="../reference-controller/overview">this</a>.
 
-The `Agent` is the component that is meant to run on our edge devices. Once it has registered itself with a Controller, the Agent will be in charge of actually pulling the microservices images and starting / stopping the microservices on our edge device. If we want to find out more about Agent, please read <a href="#/./ioFog_3.0/reference-agent/overview">this</a>.
+The `Agent` is the component that is meant to run on our edge devices. Once it has registered itself with a Controller, the Agent will be in charge of actually pulling the microservices images and starting / stopping the microservices on our edge device. If we want to find out more about Agent, please read <a href="../reference-agent/overview">this</a>.
 
 Those components are all currently running as separate Docker containers on our local machine. We can list the active containers by running:
 
@@ -224,9 +224,9 @@ potctl delete all
 
 ## Next Steps
 
-Now that you have seen what ioFog is about, you can create a real ECN with remote hosts. Instructions are found [here](#/./ioFog_3.0/platform-deployment/introduction).
+Now that you have seen what ioFog is about, you can create a real ECN with remote hosts. Instructions are found [here](../platform-deployment/introduction).
 
-We can also try deploying other Microservices on the local ECN. We can find instructions on writing our own Microservice [here](#/./ioFog_3.0/developing-microservices/overview) and a step-by-step [tutorial](#/./ioFog_3.0/tutorial/introduction).
+We can also try deploying other Microservices on the local ECN. We can find instructions on writing our own Microservice [here](../developing-microservices/overview) and a step-by-step [tutorial](../tutorial/introduction).
 
 <aside class="notifications contribute">
   <h3><img src="/static/images/icos/ico-github.svg" alt=""/>See anything wrong with the document? Help us improve it!</h3>

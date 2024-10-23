@@ -1,6 +1,8 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import type * as Redocusaurus from 'redocusaurus';
+import path from 'path';
 
 const config: Config = {
   title: 'Datasance Documentation',
@@ -51,6 +53,31 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+    // Redocusaurus config
+    [
+      'redocusaurus',
+      {
+        config: path.join(__dirname, 'redocly.yaml'),
+        openapi: {
+          path: 'openapi',
+          routeBasePath: '/api',
+        },
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          // Pass it a path to a local OpenAPI YAML file
+          {
+            // Redocusaurus will automatically bundle your spec into a single file during the build
+            spec: 'openapi/index.yaml',
+            route: '/api/',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#1890ff',
+        },
+      },
+    ] satisfies Redocusaurus.PresetEntry,
   ],
 
   themeConfig: {
@@ -68,6 +95,16 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documents',
+        },
+        {
+          label: 'API',
+          position: 'left',
+          items: [
+            {
+              label: 'All',
+              to: '/api',
+            }
+          ]
         },
         {
           type: "docsVersionDropdown",
@@ -108,10 +145,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/Datasance',

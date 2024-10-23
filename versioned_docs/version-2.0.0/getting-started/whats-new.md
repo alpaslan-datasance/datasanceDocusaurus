@@ -44,7 +44,7 @@ It is available by default on the standard HTTP port of `Controller` (80).
 
 [Find out more!](../reference-controller/ecn-viewer)
 
-[Find out more](../platform-deployment/setup-your-agents.html) and check out the [YAML specification](../reference-potctl/reference-agent)!
+[Find out more](../platform-deployment/setup-your-agents) and check out the [YAML specification](../reference-potctl/reference-agent)!
 
 <aside class="notifications contribute">
   <h3><img src="/static/images/icos/ico-github.svg" alt=""/>See anything wrong with the document? Help us improve it!</h3>

@@ -32,7 +32,7 @@ The _REST API_ is a generic microservice that provides a REST API web server, al
 _Freeboard_ is the last microservice that provides an HTML dashboard to view the real-time results coming from a rest API data source. In the case of our tutorial, the source of the data is our REST API microservice.
 
 Currently, loading the [freeboard dashboard](http://localhost:10102/?load=dashboard.json) should look similar to this:
-<img src="/static/images/Freeboard_1.png" style="max-width:100%;border-radius: 0.3em;margin: 35px 0;" />
+<img src="/static/images/Freeboard_1.png" />
 
 ## Routes
 

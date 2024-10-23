@@ -9,8 +9,8 @@ This section will explain key aspects of `potctl's` design and functionality for
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> Next steps?</h3>
   <ul>
-    <li><a href="#/./ioFog_3.0/potctl/download">Download and installation.</a></li>
-    <li><a href="#/./ioFog_3.0/reference-potctl/reference-kinds">potctl reference.</a></li>
+    <li><a href="../potctl/download">Download and installation.</a></li>
+    <li><a href="../reference-potctl/reference-kinds">potctl reference.</a></li>
   </ul>
 </aside>
 

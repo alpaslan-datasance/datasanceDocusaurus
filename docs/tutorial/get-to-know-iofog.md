@@ -155,7 +155,7 @@ Available Disk Threshold                 : 90
 
 <aside class="notifications note">
   <h3><img src="/static/images/icos/ico-note.svg" alt=""/> Learn more Agent commands</h3>
-  <p>If you want to learn about all the possible commands you can use on iofog-agent checkout the <a href="#/./ioFog_3.0/reference-agent/cli-usage">CLI Usage guide</a>.</p>
+  <p>If you want to learn about all the possible commands you can use on iofog-agent checkout the <a href="../reference-agent/cli-usage">CLI Usage guide</a>.</p>
 </aside>
 
 #### Controller's Container

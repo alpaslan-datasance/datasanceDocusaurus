@@ -1,6 +1,6 @@
 # Catalog Item YAML Specification
 
-`potctl` allows users to manage a Controller's list of catalog items. To learn more about catalog items, please see [microservice catalog documentation](../applications/microservice-registry-catalog.html).
+`potctl` allows users to manage a Controller's list of catalog items. To learn more about catalog items, please see [microservice catalog documentation](../applications/microservice-registry-catalog).
 
 The catalog item has a very simple definition
 
@@ -18,6 +18,7 @@ spec:
   configExample: '{"key": "value"}'
 ```
 
+```
 | Field         | Description                                                                    |
 | ------------- | ------------------------------------------------------------------------------ |
 | id            | Assigned by Controller, read only                                              |
@@ -26,6 +27,7 @@ spec:
 | arm           | arm32 Docker image                                                             |
 | registry      | Registry to use to fetch Docker images, options: {local, remote, registryID}   |
 | configExample | Json object with key-value pairs indicating example microservice configuration |
+```
 
 Note that the `configExample` field is a yaml map specifying the key value pairs, but it is internally stored a stringified JSON object of these values, similarly to how configuration is sent to microservices.
 
