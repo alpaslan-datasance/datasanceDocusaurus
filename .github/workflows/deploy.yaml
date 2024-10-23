@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy datasance to GitHub Pages
 
 on:
   push:
